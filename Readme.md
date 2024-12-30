@@ -94,15 +94,17 @@ EDA revealed several critical insights into sales patterns:
 4. **Visualizations**:
    - Time-series charts, box plots, and scatter plots highlighted these trends, confirming the importance of capturing seasonality in the model.
 
-## Methodology
+---
+
+## <span style="color: darkblue;">Modelling Methodology</span>
 
 ### Data Preprocessing
 - Handled missing data through interpolation for oil prices.
-- Created a dedicated dataset for "Grocery I" by aggregating sales and promotion data.
+- Created a dedicated dataset for the **Grocery** category by aggregating sales from individual stores.
 
 ### Feature Engineering
 - Time-based features like day of the week, month, and holidays were added to capture seasonality.
-- Flags for "first weekend of the month" and "weekend after payday" were included to account for payday effects.
+- Flags for key dates identified through analysis, such as the **first day of the month** and the **weekend after payday**, were incorporated to enhance modelling accuracy.
 
 ### Modelling Approach
 - **Data Splitting**:

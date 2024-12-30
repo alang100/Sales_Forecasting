@@ -113,10 +113,10 @@ EDA revealed several critical insights into sales patterns:
 - **Models**:
   - The initial model was created using the default configuration of Facebook Prophet as a baseline. Numerous enhancements were applied to both data preparation and Prophet’s parameter settings. Each of the seven subsequent models incorporated additional improvements, demonstrating their impact on the modelling results. The process culminated in identifying the best-performing model, which then underwent hyperparameter tuning to further optimize its performance.
   - Key steps included:
-      - **Incorporating Holiday Effects**: Accounting for significant sales fluctuations during holidays to improve predictions. Holidays like New Year’s Day, with near-zero sales, were modeled separately to address extreme outliers effectively.
-      - **Adding Regressors**: External events such as the Manabí earthquake and recurring patterns like payday weekends were modeled with dedicated regressors to better capture their impact on sales.
-      - **Outlier Handling**: Extreme outliers, such as New Year’s Day, were modeled separately, while high-error dates in the training set were identified and addressed with additional regressors, reducing both training and test set errors.
-      - **Seasonality Modes**: Leveraging additive and multiplicative seasonality modes to capture complex sales behaviours, including the sharper yearly seasonality observed after hyperparameter tuning.
+      - **Incorporating Holiday Effects**: Accounting for significant sales fluctuations during holidays to improve predictions. Holidays like New Year’s Day, with near-zero sales, were modelled separately to address extreme outliers effectively.
+      - **Adding Regressors**: External events such as the Manabí earthquake and recurring patterns like payday weekends were modelled with dedicated regressors to better capture their impact on sales.
+      - **Outlier Handling**: Extreme outliers, such as New Year’s Day, were modelled separately, while high-error dates in the training set were identified and addressed with additional regressors, reducing both training and test set errors.
+      - **Seasonality Modes**: Leveraging additive and multiplicative seasonality modes to capture complex sales behaviours, leading to a sharper yearly seasonality after hyperparameter tuning.
       - **Hyperparameter Optimization**: A carefully chosen cross-validation process (defining the initial, period, and horizon parameters) was used to tune key hyperparameters systematically. This enhanced the model’s ability to generalize to unseen data, leading to significant improvements in metrics.
 - **Evaluation Metrics**:
   - RMSE (Root Mean Square Error), MAE (Mean Absolute Error), and MAPE (Mean Absolute Percentage Error).

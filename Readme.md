@@ -123,7 +123,7 @@ EDA revealed several critical insights into sales patterns:
 
 ---
 
-## <span style="color: darkblue;">6. Summary of Results</span>
+## <span style="color: darkblue;">Summary of Results</span>
 
 ### Model Summary
 

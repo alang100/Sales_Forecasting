@@ -1,6 +1,6 @@
 # Time-Series Analysis and Grocery Sales Forecasting with Prophet
 
-## <span style="color: darkblue;">Abstractn</span>
+## <span style="color: darkblue;">Abstract</span>
 This project explores a systematic and practical approach to time-series forecasting using Facebook Prophet to predict grocery sales in Ecuador's Favorita supermarkets. Focusing on the "Grocery I" product family, the analysis highlights iterative refinements through feature engineering, incorporation of external factors, and hyperparameter optimisation to enhance predictive accuracy. By leveraging key features such as holiday adjustments, targeted regressors for anomalies like the Manabí earthquake and payday effects, and fine-tuning seasonality parameters, the project demonstrates Prophet’s flexibility and adaptability in handling complex sales patterns.
 
 The study addresses critical challenges, such as managing extreme outliers, incorporating domain knowledge, and balancing model complexity with generalisation through cross-validation. The results show significant progress, with the final model improving upon the baseline by reducing RMSE (Root Mean Square Error) from 41,012.7 to 24,679.2, MAPE (Mean Absolute Percentage Error) from 81.5% to 7.03%, and accuracy increasing from 18.5% to 92.97%. This demonstrates the effectiveness of Prophet when carefully configured, providing very accurate results for optimising operations and solving real-world business challenges.

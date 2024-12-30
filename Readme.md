@@ -81,7 +81,7 @@ EDA revealed several critical insights into sales patterns:
 1. **Seasonality**:
    - Daily, weekly, and yearly trends are evident.
    - Sundays are peak sales days, while Thursdays record the lowest sales.
-   - December is the highest sales month due to Christmas, followed by April (Easter) and January (New Year).
+   - December is the highest sales month due to Christmas, followed by April (Easter) and January.
 
 2. **Trends**:
    - Promotions have increased exponentially, though their relationship with sales is nonlinear.

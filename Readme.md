@@ -3,7 +3,7 @@
 ## Project Files
 
 This project involved extensive analysis and model development for forecasting grocery sales using Facebook Prophet. Below are the key project files with brief descriptions:  
-*Note: To download a file, click the link and then use the download button in the GitHub interface.*
+*Note: To download a file, click the link and then use the download button on the top right of the GitHub interface.*
 
 - **[Prophet_Forecasting_Supermarket_Sales.ipynb](Prophet_Forecasting_Supermarket_Sales.ipynb)**  
   This Jupyter Notebook contains the complete code for the project, including data exploration, feature engineering, model development, and evaluation. It serves as a comprehensive guide to the methodology and results.

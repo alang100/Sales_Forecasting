@@ -1,5 +1,26 @@
 # Time-Series Analysis and Grocery Sales Forecasting with Prophet
 
+## Project Files
+
+This project involved extensive analysis and model development for forecasting grocery sales using Facebook Prophet. Below are the key project files with brief descriptions:
+
+- **[Prophet_Forecasting_Supermarket_Sales.ipynb](Prophet_Forecasting_Supermarket_Sales.ipynb)**  
+  This Jupyter Notebook contains the complete code for the project, including data exploration, feature engineering, model development, and evaluation. It serves as a comprehensive guide to the methodology and results.
+
+- **[Prophet_Forecasting_Supermarket_Sales.html](Prophet_Forecasting_Supermarket_Sales.html)**  
+  The HTML version of the Jupyter Notebook for easier viewing without requiring a Jupyter environment. It provides a detailed narrative of the project steps and insights gained.
+
+- **[Prophet_Forecasting_Supermarket_Sales_Briefer.ipynb](Prophet_Forecasting_Supermarket_Sales_Briefer.ipynb)**  
+  This is a condensed version of the full notebook, showcasing all the steps and results for a quicker reference. It streamlines the modelling methodology into two models.
+
+- **[Prophet_Forecasting_Supermarket_Sales_Briefer.html](Prophet_Forecasting_Supermarket_Sales_Briefer.html)**  
+  The HTML version of the condensed notebook for easier access and viewing. It summarises the project outcomes in a concise format.
+
+- **[Store Sales - Time Series Forecasting dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)**
+  A link to the dataset used in this project.
+
+---
+
 ## <span style="color: darkblue;">Abstract</span>
 This project explores a systematic and practical approach to time-series forecasting using Facebook Prophet to predict grocery sales in Ecuador's Favorita supermarkets. Focusing on the "Grocery I" product family, the analysis highlights iterative refinements through feature engineering, incorporation of external factors, and hyperparameter optimisation to enhance predictive accuracy. By leveraging key features such as holiday adjustments, targeted regressors for anomalies like the Manabí earthquake and payday effects, and fine-tuning seasonality parameters, the project demonstrates Prophet’s flexibility and adaptability in handling complex sales patterns.
 

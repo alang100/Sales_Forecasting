@@ -16,7 +16,7 @@ This project involved extensive analysis and model development for forecasting g
 - **[Prophet_Forecasting_Supermarket_Sales_Briefer.html](Prophet_Forecasting_Supermarket_Sales_Briefer.html)**  
   The HTML version of the condensed notebook for easier access and viewing. It summarises the project outcomes in a concise format.
 
-- **[Store Sales - Time Series Forecasting dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)**
+- **[Store Sales - Time Series Forecasting dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)**  
   A link to the dataset used in this project.
 
 ---
